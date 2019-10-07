@@ -19,6 +19,7 @@
 
         <activity android:name=".Servicios.ServicioActivity" />
         <activity android:name=".Servicios.Servicio1" />
+        <activity android:name=".Servicios.Servicio2"></activity>
         <service
             android:name=".Servicios.MyService"
             android:enabled="true"

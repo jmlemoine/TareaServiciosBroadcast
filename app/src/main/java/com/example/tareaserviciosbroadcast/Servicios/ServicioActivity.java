@@ -16,9 +16,15 @@ public class ServicioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_servicio);
     }
 
-    public void btnServ(View v){
+    public void btnServ1(View v){
         Intent intS1 = new Intent(this, Servicio1.class);
         startActivity(intS1);
     }
+
+    public void btnServ2(View v){
+        Intent intS2 = new Intent(this, Servicio2.class);
+        startActivity(intS2);
+    }
+
 
 }
