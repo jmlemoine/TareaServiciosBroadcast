@@ -18,7 +18,7 @@ public class MyService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId){
         Toast.makeText(this, "El servicio comenzó", Toast.LENGTH_SHORT).show();
         return START_STICKY;
-        //return super.onStartCommand(intent, flags, startId);
+
     }
 
     public void onDestroy(){
